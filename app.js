@@ -121,7 +121,7 @@ function pg1func(op){
     enviar.onclick= function(){
                             document.getElementById("contact_form").submit();
                             contact_info.name= name.value;
-                            contact_info.phone=phone.value;
+                            contact_info.phone_no=phone.value;
                             APIDataCall(contact_info);
                             document.getElementById("message").innerHTML = "Obrigado! Entraremos em contato em breve"
                             };
